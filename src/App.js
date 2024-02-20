@@ -1,10 +1,11 @@
 import './App.css';
 import StateTutorial from './useState';
-import UseReducer from "./UseReducer"
+import UseReducer from "./UseReducer";
+import UseEffect from './UseEffect';
 function App() {
   return (
     <div className="App">
-      <UseReducer />
+      <UseEffect />
     </div>
   );
 }
